@@ -30,6 +30,17 @@ class DicePage extends StatefulWidget {
 class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Column(
+        children: [
+          Expanded(
+            child: TextButton(
+              onPressed: () {},
+              child: Image.asset("images/ball1.png"),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
